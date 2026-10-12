@@ -1,0 +1,170 @@
+{
+  "id": "apify458becdf6c",
+  "name": "Apify Website Tech Stack Detector - scheduled run",
+  "nodes": [
+    {
+      "id": "64663ed8-a4b4-4f33-9880-15c8062bcda1",
+      "name": "Daily 07:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "triggerAtHour": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fcbe43c4-a6c2-75b0-b68c-5065c06f7ad9",
+      "name": "Test run (manual)",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        200
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "de1a3871-0447-4ba6-944e-8b81007e930e",
+      "name": "Run actor",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/transparent_meteorite~website-tech-stack-detector/run-sync-get-dataset-items?timeout=240&format=json&clean=true",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"urls\": [\n    \"shopify.com\",\n    \"vercel.com\"\n  ],\n  \"concurrency\": 4\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "REPLACE_WITH_YOUR_CREDENTIAL",
+          "name": "Apify API token (Header Auth)"
+        }
+      }
+    },
+    {
+      "id": "1e2e1ea1-0c27-4a65-9e02-d9d739a672d0",
+      "name": "Tag source",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        520,
+        0
+      ],
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "0932418e-844f-47c1-a876-0d4be1c30fd0",
+              "name": "_source",
+              "value": "apify:transparent_meteorite/website-tech-stack-detector",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      }
+    },
+    {
+      "id": "13910aef-fcff-4bf7-be7f-b55a48d9a7ab",
+      "name": "Your destination",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        780,
+        0
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "cf4ec2dd-0df7-48d9-bd67-eec95c10181e",
+      "name": "Setup notes",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -20,
+        -420
+      ],
+      "parameters": {
+        "content": "# Website Tech Stack Detector\n\nCMS, frameworks, analytics and hosting for a list of websites.\n\n**Setup (2 min)**\n1. In n8n: Credentials > New > Header Auth. Name `Authorization`, value `Bearer YOUR_APIFY_API_TOKEN` (token from Apify Console > Settings > Integrations). Select it on the Run actor node (the credential id in this file is a placeholder: REPLACE_WITH_YOUR_CREDENTIAL).\n2. Edit the JSON body of Run actor to your own filters.\n3. Replace the Your destination node with Google Sheets, Slack, a CRM, etc.\n4. Activate the Schedule trigger (default: daily 07:00).\n\nRuns synchronously (up to about 5 minutes). For larger jobs use the async run and dataset endpoints. Check the actor's Store page for pricing before scheduling.\n\n_Disclosure: I maintain the Apify actor this workflow calls (Apify account transparent_meteorite). The workflow itself is free to use; the actor is a paid pay-per-event Apify actor, with free-plan credit covering a trial._",
+        "height": 380,
+        "width": 760
+      }
+    }
+  ],
+  "connections": {
+    "Daily 07:00": {
+      "main": [
+        [
+          {
+            "node": "Run actor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run actor": {
+      "main": [
+        [
+          {
+            "node": "Tag source",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tag source": {
+      "main": [
+        [
+          {
+            "node": "Your destination",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Test run (manual)": {
+      "main": [
+        [
+          {
+            "node": "Run actor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "tags": [],
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": "apify1985c51234",
+  "name": "Apify Local Business Leads - scheduled run",
+  "nodes": [
+    {
+      "id": "f728fbbc-a5f3-4700-bb99-8da7b661b36f",
+      "name": "Daily 07:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "triggerAtHour": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "c490eab4-73bf-3576-e7f4-bd3abd32d645",
+      "name": "Test run (manual)",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        200
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "f3a525d8-2f16-4688-afef-4c84c01ba094",
+      "name": "Run actor",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/transparent_meteorite~local-business-leads/run-sync-get-dataset-items?timeout=240&format=json&clean=true",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"categories\": [\n    \"dentist\"\n  ],\n  \"locations\": [\n    \"Austin, TX\"\n  ],\n  \"maxItems\": 50,\n  \"requireWebsite\": false\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "REPLACE_WITH_YOUR_CREDENTIAL",
+          "name": "Apify API token (Header Auth)"
+        }
+      }
+    },
+    {
+      "id": "9d508ba3-612b-45b8-9be8-04b10044d272",
+      "name": "Tag source",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        520,
+        0
+      ],
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "bb26e8b5-d626-4d6d-8b24-c22faa8cd3a7",
+              "name": "_source",
+              "value": "apify:transparent_meteorite/local-business-leads",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      }
+    },
+    {
+      "id": "71caa92f-9bcd-403a-ba03-c494761d3a31",
+      "name": "Your destination",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        780,
+        0
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "fb7d9deb-44eb-4a84-907f-fd59677ffac2",
+      "name": "Setup notes",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -20,
+        -420
+      ],
+      "parameters": {
+        "content": "# Local Business Leads\n\nlocal businesses (including ones without a website) from OpenStreetMap.\n\n**Setup (2 min)**\n1. In n8n: Credentials > New > Header Auth. Name `Authorization`, value `Bearer YOUR_APIFY_API_TOKEN` (token from Apify Console > Settings > Integrations). Select it on the Run actor node (the credential id in this file is a placeholder: REPLACE_WITH_YOUR_CREDENTIAL).\n2. Edit the JSON body of Run actor to your own filters.\n3. Replace the Your destination node with Google Sheets, Slack, a CRM, etc.\n4. Activate the Schedule trigger (default: daily 07:00).\n\nRuns synchronously (up to about 5 minutes). For larger jobs use the async run and dataset endpoints. Check the actor's Store page for pricing before scheduling.\n\n_Disclosure: I maintain the Apify actor this workflow calls (Apify account transparent_meteorite). The workflow itself is free to use; the actor is a paid pay-per-event Apify actor, with free-plan credit covering a trial._",
+        "height": 380,
+        "width": 760
+      }
+    }
+  ],
+  "connections": {
+    "Daily 07:00": {
+      "main": [
+        [
+          {
+            "node": "Run actor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run actor": {
+      "main": [
+        [
+          {
+            "node": "Tag source",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tag source": {
+      "main": [
+        [
+          {
+            "node": "Your destination",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Test run (manual)": {
+      "main": [
+        [
+          {
+            "node": "Run actor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "tags": [],
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}

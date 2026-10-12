@@ -1,0 +1,170 @@
+{
+  "id": "apifyef14e4adc4",
+  "name": "Apify ATS Open Roles - scheduled run",
+  "nodes": [
+    {
+      "id": "46aae4b3-3fee-48f4-97ed-d8abb0d3d2d0",
+      "name": "Daily 07:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "triggerAtHour": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "f36852d2-619e-7a79-7e06-ba7b75ab72a1",
+      "name": "Test run (manual)",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        200
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "31f3e9b3-1897-4ebb-bce2-dbc864702ccf",
+      "name": "Run actor",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/transparent_meteorite~ats-open-roles/run-sync-get-dataset-items?timeout=240&format=json&clean=true",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"companies\": [\n    \"airbnb\",\n    \"stripe\",\n    \"https://jobs.lever.co/spotify\"\n  ],\n  \"maxJobsPerCompany\": 25,\n  \"onlyNewSinceLastRun\": true\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "REPLACE_WITH_YOUR_CREDENTIAL",
+          "name": "Apify API token (Header Auth)"
+        }
+      }
+    },
+    {
+      "id": "4c1e6e72-8903-458d-a553-c705f6dbcbcb",
+      "name": "Tag source",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        520,
+        0
+      ],
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "4eefdd32-abde-48d5-82f5-668e12b07aca",
+              "name": "_source",
+              "value": "apify:transparent_meteorite/ats-open-roles",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      }
+    },
+    {
+      "id": "3d7b34ee-2111-425d-bf8a-ade365db5cea",
+      "name": "Your destination",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        780,
+        0
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "29ca2f09-a1cf-47ee-b494-b08e6a7a8a05",
+      "name": "Setup notes",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -20,
+        -420
+      ],
+      "parameters": {
+        "content": "# ATS Open Roles\n\nopen jobs from Greenhouse, Lever, Ashby and other career sites (set monitorMode for new-or-changed).\n\n**Setup (2 min)**\n1. In n8n: Credentials > New > Header Auth. Name `Authorization`, value `Bearer YOUR_APIFY_API_TOKEN` (token from Apify Console > Settings > Integrations). Select it on the Run actor node (the credential id in this file is a placeholder: REPLACE_WITH_YOUR_CREDENTIAL).\n2. Edit the JSON body of Run actor to your own filters.\n3. Replace the Your destination node with Google Sheets, Slack, a CRM, etc.\n4. Activate the Schedule trigger (default: daily 07:00).\n\nRuns synchronously (up to about 5 minutes). For larger jobs use the async run and dataset endpoints. Check the actor's Store page for pricing before scheduling.\n\n_Disclosure: I maintain the Apify actor this workflow calls (Apify account transparent_meteorite). The workflow itself is free to use; the actor is a paid pay-per-event Apify actor, with free-plan credit covering a trial._",
+        "height": 380,
+        "width": 760
+      }
+    }
+  ],
+  "connections": {
+    "Daily 07:00": {
+      "main": [
+        [
+          {
+            "node": "Run actor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run actor": {
+      "main": [
+        [
+          {
+            "node": "Tag source",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tag source": {
+      "main": [
+        [
+          {
+            "node": "Your destination",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Test run (manual)": {
+      "main": [
+        [
+          {
+            "node": "Run actor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "tags": [],
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}

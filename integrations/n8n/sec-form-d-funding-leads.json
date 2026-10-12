@@ -1,0 +1,170 @@
+{
+  "id": "apify09b9ec241a",
+  "name": "Apify SEC Form D Funding Leads - scheduled run",
+  "nodes": [
+    {
+      "id": "4c59edaf-5c06-4bf5-8dbc-cf50dc89bdff",
+      "name": "Daily 07:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "triggerAtHour": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "e43adbd0-242e-19cd-4077-2c151be65a78",
+      "name": "Test run (manual)",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        200
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "b5fdec2c-de20-410d-ad7f-3fe0113603db",
+      "name": "Run actor",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/transparent_meteorite~sec-form-d-funding-leads/run-sync-get-dataset-items?timeout=240&format=json&clean=true",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"lookbackDays\": 3,\n  \"maxResults\": 25,\n  \"excludePooledFunds\": true,\n  \"includeAmendments\": false,\n  \"onlyNewSinceLastRun\": true\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "REPLACE_WITH_YOUR_CREDENTIAL",
+          "name": "Apify API token (Header Auth)"
+        }
+      }
+    },
+    {
+      "id": "3811069d-ee38-43d5-9653-aaab3a7d08fd",
+      "name": "Tag source",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        520,
+        0
+      ],
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "53e1f097-2407-4c57-acfb-0ddf45451903",
+              "name": "_source",
+              "value": "apify:transparent_meteorite/sec-form-d-funding-leads",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      }
+    },
+    {
+      "id": "43bbb4b7-1c22-432a-b889-f581bc73399d",
+      "name": "Your destination",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        780,
+        0
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "24b23d8b-fa11-4bdb-82a3-9a9ff32ff0db",
+      "name": "Setup notes",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -20,
+        -420
+      ],
+      "parameters": {
+        "content": "# SEC Form D Funding Leads\n\nrecently funded startups from SEC Form D filings.\n\n**Setup (2 min)**\n1. In n8n: Credentials > New > Header Auth. Name `Authorization`, value `Bearer YOUR_APIFY_API_TOKEN` (token from Apify Console > Settings > Integrations). Select it on the Run actor node (the credential id in this file is a placeholder: REPLACE_WITH_YOUR_CREDENTIAL).\n2. Edit the JSON body of Run actor to your own filters.\n3. Replace the Your destination node with Google Sheets, Slack, a CRM, etc.\n4. Activate the Schedule trigger (default: daily 07:00).\n\nRuns synchronously (up to about 5 minutes). For larger jobs use the async run and dataset endpoints. Check the actor's Store page for pricing before scheduling.\n\n_Disclosure: I maintain the Apify actor this workflow calls (Apify account transparent_meteorite). The workflow itself is free to use; the actor is a paid pay-per-event Apify actor, with free-plan credit covering a trial._",
+        "height": 380,
+        "width": 760
+      }
+    }
+  ],
+  "connections": {
+    "Daily 07:00": {
+      "main": [
+        [
+          {
+            "node": "Run actor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run actor": {
+      "main": [
+        [
+          {
+            "node": "Tag source",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tag source": {
+      "main": [
+        [
+          {
+            "node": "Your destination",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Test run (manual)": {
+      "main": [
+        [
+          {
+            "node": "Run actor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "tags": [],
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}

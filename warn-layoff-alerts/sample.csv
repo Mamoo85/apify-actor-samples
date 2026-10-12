@@ -1,0 +1,13 @@
+company,city,county,state,layoff_count,notice_date,layoff_date,received_date,layoff_type,source_state,source_url,enriched
+"Caribou Biosciences, Inc.",Berkeley,Alameda,CA,87,2026-10-06,2026-12-07,2026-10-06,Closure Permanent,CA,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Beachbody, LLC",El Segundo,Los Angeles,CA,80,2026-10-06,2026-12-07,2026-10-07,Layoff Permanent,CA,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",Oakland,Alameda,CA,1,2026-10-05,2026-12-04,2026-10-05,Layoff Permanent,CA,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",Pleasanton,Alameda,CA,2,2026-10-05,2026-12-04,2026-10-05,Layoff Permanent,CA,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",Pasadena,Los Angeles,CA,1,2026-10-05,2026-12-04,2026-10-05,Layoff Permanent,CA,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",San Diego,San Diego,CA,1,2026-10-05,2026-12-04,2026-10-05,Layoff Permanent,CA,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"AMF Bowling Centers, Inc. Castle Park",Riverside,Riverside,CA,130,2026-10-05,2026-12-04,2026-10-05,Layoff Permanent,CA,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+Cayuga Home for Children,Los Angeles,Los Angeles,CA,12,2026-10-05,2027-01-04,2026-10-06,Closure Permanent,CA,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+Blue Diamond Growers,Sacramento,Sacramento,CA,3,2026-10-02,2026-12-04,2026-10-02,Closure Permanent,CA,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+TruFusion West Hollywood LLC,Los Angeles,Los Angeles,CA,92,2026-10-01,2026-11-30,2026-10-02,Closure Permanent,CA,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Magic Leap, Inc.",Sunnyvale,Santa Clara,CA,5,2026-10-01,2026-12-01,2026-10-02,Layoff Permanent,CA,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+ODS Technologies LP and Betfair Interactive US LLC,Los Angeles,Los Angeles,CA,2,2026-10-01,2026-11-30,2026-10-07,Layoff Permanent,CA,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False

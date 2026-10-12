@@ -1,0 +1,13 @@
+recordType,site,url,changefreq,priority,sourceSitemap,sitemapDepth,pathGroup,pathDepth,hasQuery,imageCount,videoCount,hreflangCount,robotsDisallowed,isDuplicate,checked
+url,crawlee.dev,https://crawlee.dev/blog,weekly,0.5,https://crawlee.dev/sitemap.xml,0,/blog,1,False,0,0,0,False,False,False
+url,crawlee.dev,https://crawlee.dev/blog/archive,weekly,0.5,https://crawlee.dev/sitemap.xml,0,/blog,2,False,0,0,0,False,False,False
+url,crawlee.dev,https://crawlee.dev/blog/authors,weekly,0.5,https://crawlee.dev/sitemap.xml,0,/blog,2,False,0,0,0,False,False,False
+url,crawlee.dev,https://crawlee.dev/blog/building-gradcracker-scraper-with-crawlee,weekly,0.5,https://crawlee.dev/sitemap.xml,0,/blog,2,False,0,0,0,False,False,False
+url,crawlee.dev,https://crawlee.dev/blog/common-problems-in-web-scraping,weekly,0.5,https://crawlee.dev/sitemap.xml,0,/blog,2,False,0,0,0,False,False,False
+url,crawlee.dev,https://crawlee.dev/blog/crawlee-blog-launch,weekly,0.5,https://crawlee.dev/sitemap.xml,0,/blog,2,False,0,0,0,False,False,False
+url,crawlee.dev,https://crawlee.dev/blog/crawlee-for-python-v05,weekly,0.5,https://crawlee.dev/sitemap.xml,0,/blog,2,False,0,0,0,False,False,False
+url,crawlee.dev,https://crawlee.dev/blog/crawlee-for-python-v06,weekly,0.5,https://crawlee.dev/sitemap.xml,0,/blog,2,False,0,0,0,False,False,False
+url,crawlee.dev,https://crawlee.dev/blog/crawlee-for-python-v1,weekly,0.5,https://crawlee.dev/sitemap.xml,0,/blog,2,False,0,0,0,False,False,False
+url,crawlee.dev,https://crawlee.dev/blog/crawlee-python-price-tracker,weekly,0.5,https://crawlee.dev/sitemap.xml,0,/blog,2,False,0,0,0,False,False,False
+url,crawlee.dev,https://crawlee.dev/blog/crawlee-v3-16,weekly,0.5,https://crawlee.dev/sitemap.xml,0,/blog,2,False,0,0,0,False,False,False
+url,crawlee.dev,https://crawlee.dev/blog/crawlee-v3-18,weekly,0.5,https://crawlee.dev/sitemap.xml,0,/blog,2,False,0,0,0,False,False,False

@@ -1,0 +1,69 @@
+{
+  "format": "zapier-style-recipe",
+  "importable": false,
+  "title": "Apify Website Contact Extractor on a schedule",
+  "description": "Run the Apify actor transparent_meteorite/website-contact-extractor (public business emails, phones and social links from websites) on a schedule and pass each result row to your next step.",
+  "disclosure": "Disclosure: I maintain the Apify actor this workflow calls (Apify account transparent_meteorite). The workflow itself is free to use; the actor is a paid pay-per-event Apify actor, with free-plan credit covering a trial.",
+  "steps": [
+    {
+      "n": 1,
+      "role": "trigger",
+      "app": "Schedule by Zapier",
+      "event": "Every Day",
+      "fields": {
+        "time_of_day": "7am",
+        "trigger_on_weekends": "no"
+      }
+    },
+    {
+      "n": 2,
+      "role": "action",
+      "app": "Webhooks by Zapier",
+      "event": "Custom Request",
+      "fields": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/transparent_meteorite~website-contact-extractor/run-sync-get-dataset-items?timeout=240&format=json&clean=true",
+        "data_pass_through": "no",
+        "data": {
+          "startUrls": [
+            {
+              "url": "https://example.com"
+            }
+          ],
+          "maxPagesPerSite": 5,
+          "includeNamedEmails": true,
+          "sameDomainOnly": true
+        },
+        "unflatten": "yes",
+        "headers": {
+          "Authorization": "Bearer YOUR_APIFY_API_TOKEN",
+          "Content-Type": "application/json"
+        }
+      },
+      "note": "Webhooks by Zapier is a paid-plan app. The response is a JSON array; Zapier exposes it as a line-item list."
+    },
+    {
+      "n": 3,
+      "role": "action",
+      "app": "Looping by Zapier",
+      "event": "Create Loop From Line Items",
+      "fields": {
+        "values_to_loop": "map the array items you need from step 2"
+      }
+    },
+    {
+      "n": 4,
+      "role": "action",
+      "app": "REPLACE_ME (Google Sheets / Slack / HubSpot ...)",
+      "event": "REPLACE_ME",
+      "fields": {}
+    }
+  ],
+  "setup": [
+    "Create the Zap with the four steps above.",
+    "Paste your own Apify API token in the Authorization header (never share it).",
+    "Edit data to your own filters.",
+    "Test step 2 once, then turn the Zap on.",
+    "Check the actor's Store page for per-result pricing before scheduling."
+  ]
+}
