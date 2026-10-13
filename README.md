@@ -43,3 +43,12 @@ Landing pages for all 21 actors: https://mamoo85.github.io/open-data-actors/
 
 Ten folders also have `latest.csv` and `latest.json` (up to 60 rows, refreshed weekly, fixed raw URLs) and a `DATA_DICTIONARY.md` listing every column: [warn-layoff-alerts](./warn-layoff-alerts/DATA_DICTIONARY.md), [fmcsa-new-carrier-leads](./fmcsa-new-carrier-leads/DATA_DICTIONARY.md), [federal-grants-contracts](./federal-grants-contracts/DATA_DICTIONARY.md), [city-council-agendas](./city-council-agendas/DATA_DICTIONARY.md), [sec-form-d-funding-leads](./sec-form-d-funding-leads/DATA_DICTIONARY.md), [new-business-filings](./new-business-filings/DATA_DICTIONARY.md), [building-permits-leads](./building-permits-leads/DATA_DICTIONARY.md), [developer-signals](./developer-signals/DATA_DICTIONARY.md), [ats-open-roles](./ats-open-roles/DATA_DICTIONARY.md), [workday-jobs-scraper](./workday-jobs-scraper/DATA_DICTIONARY.md). Dataset pages, static JSON API, chart widgets and monthly stats: https://mamoo85.github.io/open-data-actors/datasets/
 <!--/od-latest-->
+
+## More ways to use the actors
+
+All maintained by me (same disclosure as above):
+
+- [open-data-actor-workflows](https://github.com/Mamoo85/open-data-actor-workflows): n8n workflows, Make blueprints and Zapier recipes for all 24 actors.
+- [open-data-actor-notebooks](https://github.com/Mamoo85/open-data-actor-notebooks): executed Colab/Jupyter notebooks, one per actor.
+- [open-data-actors-agent-tools](https://github.com/Mamoo85/open-data-actors-agent-tools): LangChain, LlamaIndex and CrewAI tools.
+- [open-data-actors-mcp](https://github.com/Mamoo85/open-data-actors-mcp): MCP server (listed in the official MCP registry).
