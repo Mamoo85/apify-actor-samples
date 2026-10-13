@@ -36,3 +36,4 @@ Street addresses are removed in every sample (only city, state and a 3-digit ZIP
 
 Landing pages for all 21 actors: https://mamoo85.github.io/open-data-actors/
 | [linkedin-public-jobs](https://apify.com/transparent_meteorite/linkedin-public-jobs) | [linkedin-public-jobs/](./linkedin-public-jobs/) | LinkedIn Public Jobs Scraper (no login) | Salary & Level |
+| [meta-ad-library](https://apify.com/transparent_meteorite/meta-ad-library) | [meta-ad-library/](./meta-ad-library/) | Meta Ad Library Scraper: Facebook & Instagram Ads |
