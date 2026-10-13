@@ -35,3 +35,4 @@ Street addresses are removed in every sample (only city, state and a 3-digit ZIP
 [`integrations/`](./integrations/) has n8n workflows, Make blueprints and Zapier-style recipes for eight of these actors (same disclosure applies: I maintain them). Tested with: n8n 2.42.6 (all 8 import; 2 run end to end with real rows), Make (all 8 import as valid scenarios; not run, account over its ops limit), Zapier (not importable; step-by-step guide only, not run). Details in the README inside.
 
 Landing pages for all 21 actors: https://mamoo85.github.io/open-data-actors/
+| [linkedin-public-jobs](https://apify.com/transparent_meteorite/linkedin-public-jobs) | [linkedin-public-jobs/](./linkedin-public-jobs/) | LinkedIn Public Jobs Scraper (no login) | Salary & Level |
