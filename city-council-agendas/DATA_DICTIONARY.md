@@ -1,6 +1,6 @@
 # Data dictionary: City council agenda items and votes
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/city-council-agendas/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/city-council-agendas/latest.json) (60 rows, refreshed weekly, last pull 2026-10-13T22:21:36Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/city-council-agendas/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/city-council-agendas/latest.json) (60 rows, refreshed weekly, last pull 2026-10-13T22:32:24Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/city-council-agendas
 Data origin: Legistar public web API (city clerk records)

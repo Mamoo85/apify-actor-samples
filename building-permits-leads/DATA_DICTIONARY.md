@@ -1,6 +1,6 @@
 # Data dictionary: City building permits (Chicago, Seattle, Austin)
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/building-permits-leads/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/building-permits-leads/latest.json) (60 rows, refreshed weekly, last pull 2026-10-13T22:21:52Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/building-permits-leads/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/building-permits-leads/latest.json) (60 rows, refreshed weekly, last pull 2026-10-13T22:32:31Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/building-permits-leads
 Data origin: City open-data portals (Chicago, Seattle, Austin)
@@ -22,7 +22,7 @@ Contact details (emails, phones), street addresses and personal-name fields are 
 | `applicationDate` | date | Application date. |
 | `issueDate` | date | Issue date. |
 | `recordDate` | date | Record date used for freshness filtering. |
-| `valuation` | number | Declared project valuation in USD. |
+| `valuation` | integer | Declared project valuation in USD. |
 | `latitude` | number | Latitude rounded to 2 decimals (about 1 km). |
 | `longitude` | number | Longitude rounded to 2 decimals (about 1 km). |
 | `contractorBusiness` | string | Contractor business name as filed. |

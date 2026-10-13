@@ -1,6 +1,6 @@
 # Data dictionary: Jobs from Workday career sites
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/workday-jobs-scraper/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/workday-jobs-scraper/latest.json) (60 rows, refreshed weekly, last pull 2026-10-13T22:22:12Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/workday-jobs-scraper/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/workday-jobs-scraper/latest.json) (60 rows, refreshed weekly, last pull 2026-10-13T22:32:48Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/workday-jobs-scraper
 Data origin: Public Workday career-site job feeds

@@ -1,6 +1,6 @@
 # Data dictionary: Developer signals: Hacker News, npm and PyPI
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/developer-signals/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/developer-signals/latest.json) (47 rows, refreshed weekly, last pull 2026-10-13T22:21:51Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/developer-signals/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/developer-signals/latest.json) (49 rows, refreshed weekly, last pull 2026-10-13T22:32:35Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/developer-signals
 Data origin: Hacker News Algolia API, npm registry, PyPI JSON API

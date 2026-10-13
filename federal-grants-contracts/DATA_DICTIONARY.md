@@ -1,6 +1,6 @@
 # Data dictionary: Federal grants and contract awards
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/federal-grants-contracts/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/federal-grants-contracts/latest.json) (60 rows, refreshed weekly, last pull 2026-10-13T22:21:53Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/federal-grants-contracts/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/federal-grants-contracts/latest.json) (60 rows, refreshed weekly, last pull 2026-10-13T22:32:47Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/federal-grants-contracts
 Data origin: Grants.gov and USAspending.gov (U.S. federal open data)

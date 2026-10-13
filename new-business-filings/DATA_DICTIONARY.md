@@ -1,6 +1,6 @@
 # Data dictionary: New business entity filings (CO, NY, OR, CT)
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/new-business-filings/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/new-business-filings/latest.json) (60 rows, refreshed weekly, last pull 2026-10-13T22:21:48Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/new-business-filings/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/new-business-filings/latest.json) (60 rows, refreshed weekly, last pull 2026-10-13T22:32:43Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/new-business-filings
 Data origin: State open-data portals (Colorado, New York, Oregon, Connecticut)
