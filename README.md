@@ -38,3 +38,8 @@ Landing pages for all 21 actors: https://mamoo85.github.io/open-data-actors/
 | [linkedin-public-jobs](https://apify.com/transparent_meteorite/linkedin-public-jobs) | [linkedin-public-jobs/](./linkedin-public-jobs/) | LinkedIn Public Jobs Scraper (no login) | Salary & Level |
 | [meta-ad-library](https://apify.com/transparent_meteorite/meta-ad-library) | [meta-ad-library/](./meta-ad-library/) | Meta Ad Library Scraper: Facebook & Instagram Ads |
 | [amazon-product-search](https://apify.com/transparent_meteorite/amazon-product-search) | [amazon-product-search/](./amazon-product-search/) | Amazon Product Search: prices, ratings, ASINs |
+<!--od-latest-->
+## Fresh data and data dictionaries
+
+Ten folders also have `latest.csv` and `latest.json` (up to 60 rows, refreshed weekly, fixed raw URLs) and a `DATA_DICTIONARY.md` listing every column: [warn-layoff-alerts](./warn-layoff-alerts/DATA_DICTIONARY.md), [fmcsa-new-carrier-leads](./fmcsa-new-carrier-leads/DATA_DICTIONARY.md), [federal-grants-contracts](./federal-grants-contracts/DATA_DICTIONARY.md), [city-council-agendas](./city-council-agendas/DATA_DICTIONARY.md), [sec-form-d-funding-leads](./sec-form-d-funding-leads/DATA_DICTIONARY.md), [new-business-filings](./new-business-filings/DATA_DICTIONARY.md), [building-permits-leads](./building-permits-leads/DATA_DICTIONARY.md), [developer-signals](./developer-signals/DATA_DICTIONARY.md), [ats-open-roles](./ats-open-roles/DATA_DICTIONARY.md), [workday-jobs-scraper](./workday-jobs-scraper/DATA_DICTIONARY.md). Dataset pages, static JSON API, chart widgets and monthly stats: https://mamoo85.github.io/open-data-actors/datasets/
+<!--/od-latest-->

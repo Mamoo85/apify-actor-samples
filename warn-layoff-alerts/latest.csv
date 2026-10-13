@@ -1,0 +1,61 @@
+company,city,county,state,layoff_count,notice_date,layoff_date,received_date,wda,source_state,layoff_type,source_url,enriched
+JPMorgan Chase & Co.,Plano,Collin,TX,244,2026-06-23,2026-08-21,2026-06-23,North Central Texas WDA,TX,,https://data.texas.gov/d/8w53-c4f6,False
+KUEHNE + NAGEL (KN) 2026,Lewisville,Denton,TX,90,2026-06-16,2026-06-29,2026-06-16,North Central Texas WDA,TX,,https://data.texas.gov/d/8w53-c4f6,False
+"Caribou Biosciences, Inc.",Berkeley,Alameda,CA,87,2026-10-06,2026-12-07,2026-10-06,,CA,Closure Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Beachbody, LLC",El Segundo,Los Angeles,CA,80,2026-10-06,2026-12-07,2026-10-07,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",Oakland,Alameda,CA,1,2026-10-05,2026-12-04,2026-10-05,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",Pleasanton,Alameda,CA,2,2026-10-05,2026-12-04,2026-10-05,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc. (74 N. Pasadena Ave.)",Pasadena,Los Angeles,CA,1,2026-10-05,2026-12-04,2026-10-05,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",San Diego,San Diego,CA,1,2026-10-05,2026-12-04,2026-10-05,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"AMF Bowling Centers, Inc. Castle Park",Riverside,Riverside,CA,130,2026-10-05,2026-12-04,2026-10-05,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+Cayuga Home for Children,Los Angeles,Los Angeles,CA,12,2026-10-05,2027-01-04,2026-10-06,,CA,Closure Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+Blue Diamond Growers,Sacramento,Sacramento,CA,3,2026-10-02,2026-12-04,2026-10-02,,CA,Closure Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+TruFusion West Hollywood LLC,Los Angeles,Los Angeles,CA,92,2026-10-01,2026-11-30,2026-10-02,,CA,Closure Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Magic Leap, Inc.",Sunnyvale,Santa Clara,CA,5,2026-10-01,2026-12-01,2026-10-02,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+ODS Technologies LP and Betfair Interactive US LLC,Los Angeles,Los Angeles,CA,2,2026-10-01,2026-11-30,2026-10-07,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+DLVR (A Corp),Culver City,Los Angeles,CA,60,2026-09-30,2026-12-04,2026-09-30,,CA,Closure Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Monroe Operations, LLC, dba Newport Healthcare - Pimlico",Moorpark,Ventura,CA,3,2026-09-30,2026-09-30,2026-10-02,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Monroe Operations, LLC, dba Newport Healthcare - Alhambra",Santa Rosa Valley,Ventura,CA,5,2026-09-30,2026-09-30,2026-10-02,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Monroe Operations, LLC, dba Newport Healthcare - Presilla",Santa Rosa Valley,Ventura,CA,8,2026-09-30,2026-09-30,2026-10-02,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Monroe Operations, LLC, dba Newport Healthcare - Read",Moorpark,Ventura,CA,6,2026-09-30,2026-09-30,2026-10-02,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Monroe Operations, LLC, dba Newport Healthcare - Valley Vista",Camarillo,Ventura,CA,18,2026-09-30,2026-09-30,2026-10-02,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+Neogen Care Home Health Agency,Sherman Oaks,Los Angeles,CA,148,2026-09-30,2026-09-11,2026-10-06,,CA,Closure Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+Workday Inc.,Pleasanton,Alameda,CA,142,2026-09-29,2026-11-30,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (1060 N Eastern Ave.)",Los Angeles,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (11515 S. Colima Rd.)",Whittier,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (11700 S. Alameda St.)",Lynwood,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (12335 Civic Center Dr.)",Norwalk,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (13483 Fiji Way)",Marina Del Rey,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (1445 McKinley Ave.)",Pomona,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (150 N Hudson Ave.)",Industry,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (21356 S. Avalon Blvd.)",Carson,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (21695 Valley Blvd.)",Walnut,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (26123 S. Narbonne Ave.)",Lomita,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (26201 Golden Valley Rd.)",Santa Clarita,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (270 S. Walnut Ave.)",San Dimas,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (27050 Agoura Rd.)",Agoura,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (29380 The Old Road)",Castaic,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (4554 N. Briggs Ave.)",La Crescenta,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (501 W. Lancaster Blvd.)",Lancaster,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (5130 N. Clark Ave.)",Lakewood,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (6631 S Passons Ave.)",Pico Riva,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (750 E Ave Q)",Palmdale,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (780 N. San Vicenta Blvd.)",W. Hollywood,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Constellis, LLC (8838 E. Las Tunas Dr.)",Temple City,Los Angeles,CA,5,2026-09-29,2026-10-31,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Covenant Aviation Security, LLC",San Francisco,San Francisco,CA,1279,2026-09-28,2026-11-30,2026-09-28,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+Corteva Agriscience LLC,Pittsburg,Contra Costa,CA,2,2026-09-28,2026-10-30,2026-09-29,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+McKinley Paper and Packaging Company,Cerritos,Los Angeles,CA,45,2026-09-28,2026-11-30,2026-09-30,,CA,Closure Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Randstad Inhouse Services, LLC (Dreyer's)",Bakersfield,Kern,CA,426,2026-09-24,2026-11-19,2026-09-24,,CA,Closure Temporary,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Randstad Inhouse Services, LLC (Dreyer's)",Tulare,Tulare,CA,90,2026-09-24,2026-11-22,2026-09-24,,CA,Closure Temporary,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+City National Bank - Flower Street,Los Angeles,Los Angeles,CA,4,2026-09-24,2026-11-23,2026-09-25,,CA,Layoff Not known at this time,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+City National Bank - Grand Ave.,Los Angeles,Los Angeles,CA,15,2026-09-24,2026-11-23,2026-09-25,,CA,Layoff Not known at this time,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+BioMarin Pharmaceutical Inc.,Novato,Marin,CA,117,2026-09-24,2026-12-04,2026-09-28,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Becton, Dickinson and Company (BD)",San Diego,San Diego,CA,85,2026-09-24,2026-09-01,2026-10-01,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+Capstone Delivery Inc.,South Gate,Los Angeles,CA,106,2026-09-23,2026-11-21,2026-09-23,,CA,Closure Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Key Energy Services, LLC - Bakersfield Location",Bakersfield,Kern,CA,53,2026-09-23,2026-11-22,2026-09-24,,CA,Closure Temporary,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+"Key Energy Services, LLC - Ventura Location",Ventura,Ventura,CA,4,2026-09-23,2026-11-22,2026-09-24,,CA,Closure Temporary,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+City of Hope,Irwindale,Los Angeles,CA,73,2026-09-23,2026-11-24,2026-09-24,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+RTX,El Segundo,Los Angeles,CA,1,2026-09-22,2026-11-27,2026-09-22,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+SAC Health (1003 East Brier Drive),San Bernardino,San Bernardino,CA,42,2026-09-22,2026-09-28,2026-09-24,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+SAC Health (250 South G St.),San Bernardino,San Bernardino,CA,9,2026-09-22,2026-09-28,2026-09-24,,CA,Layoff Permanent,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
+Dreyer's Grand Ice Cream,Bakersfield,Kern,CA,221,2026-09-22,2026-11-19,2026-09-25,,CA,Closure Temporary,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN,False
