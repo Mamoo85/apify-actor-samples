@@ -53,3 +53,4 @@ All maintained by me (same disclosure as above):
 - [open-data-actors-agent-tools](https://github.com/Mamoo85/open-data-actors-agent-tools): LangChain, LlamaIndex and CrewAI tools.
 - [open-data-actors-mcp](https://github.com/Mamoo85/open-data-actors-mcp): MCP server (listed in the official MCP registry).
 | [google-maps-places-scraper](https://apify.com/transparent_meteorite/google-maps-places-scraper) | [google-maps-places-scraper/](./google-maps-places-scraper/) | Google Maps Scraper: Places, Phones, Emails $1.50/1K |
+| [tiktok-public-profile-scraper](https://apify.com/transparent_meteorite/tiktok-public-profile-scraper) | [tiktok-public-profile-scraper/](./tiktok-public-profile-scraper/) | TikTok Profile Scraper - Followers, Posts, Bio, Emails |
