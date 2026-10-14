@@ -55,3 +55,4 @@ All maintained by me (same disclosure as above):
 | [google-maps-places-scraper](https://apify.com/transparent_meteorite/google-maps-places-scraper) | [google-maps-places-scraper/](./google-maps-places-scraper/) | Google Maps Scraper: Places, Phones, Emails $1.50/1K |
 | [tiktok-public-profile-scraper](https://apify.com/transparent_meteorite/tiktok-public-profile-scraper) | [tiktok-public-profile-scraper/](./tiktok-public-profile-scraper/) | TikTok Profile Scraper - Followers, Posts, Bio, Emails |
 | [youtube-comments-scraper](https://apify.com/transparent_meteorite/youtube-comments-scraper) | [youtube-comments-scraper/](./youtube-comments-scraper/) | YouTube Comments Scraper - Comments & Replies, $1/1K |
+| [amazon-bestsellers](https://apify.com/transparent_meteorite/amazon-bestsellers) | [amazon-bestsellers/](./amazon-bestsellers/) | Amazon Best Sellers Scraper - Top 100 Ranks, 21 Countries |
