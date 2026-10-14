@@ -56,3 +56,4 @@ All maintained by me (same disclosure as above):
 | [tiktok-public-profile-scraper](https://apify.com/transparent_meteorite/tiktok-public-profile-scraper) | [tiktok-public-profile-scraper/](./tiktok-public-profile-scraper/) | TikTok Profile Scraper - Followers, Posts, Bio, Emails |
 | [youtube-comments-scraper](https://apify.com/transparent_meteorite/youtube-comments-scraper) | [youtube-comments-scraper/](./youtube-comments-scraper/) | YouTube Comments Scraper - Comments & Replies, $1/1K |
 | [amazon-bestsellers](https://apify.com/transparent_meteorite/amazon-bestsellers) | [amazon-bestsellers/](./amazon-bestsellers/) | Amazon Best Sellers Scraper - Top 100 Ranks, 21 Countries |
+| [sam-gov-opportunities](https://apify.com/transparent_meteorite/sam-gov-opportunities) | [sam-gov-opportunities/](./sam-gov-opportunities/) | SAM.gov Scraper: Federal Contract Opportunities API |
