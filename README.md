@@ -66,3 +66,4 @@ All maintained by me (same disclosure as above):
 | [youtube-transcript-extractor](https://apify.com/transparent_meteorite/youtube-transcript-extractor) | [youtube-transcript-extractor/](./youtube-transcript-extractor/) | YouTube transcript extractor: captions as text, segments, SRT or VTT |
 | [youtube-video-scraper](https://apify.com/transparent_meteorite/youtube-video-scraper) | [youtube-video-scraper/](./youtube-video-scraper/) | YouTube Scraper: Videos, Views, Likes, Tags, $2 per 1K |
 | [youtube-channel-scraper](https://apify.com/transparent_meteorite/youtube-channel-scraper) | [youtube-channel-scraper/](./youtube-channel-scraper/) | YouTube Channel Scraper: Subscribers, Links, Videos $0.8/1K |
+| [facebook-pages-scraper](https://apify.com/transparent_meteorite/facebook-pages-scraper) | [facebook-pages-scraper/](./facebook-pages-scraper/) | Facebook Pages Scraper: Emails, Phones, Followers $3/1K |
