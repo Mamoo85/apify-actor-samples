@@ -67,3 +67,4 @@ All maintained by me (same disclosure as above):
 | [youtube-video-scraper](https://apify.com/transparent_meteorite/youtube-video-scraper) | [youtube-video-scraper/](./youtube-video-scraper/) | YouTube Scraper: Videos, Views, Likes, Tags, $2 per 1K |
 | [youtube-channel-scraper](https://apify.com/transparent_meteorite/youtube-channel-scraper) | [youtube-channel-scraper/](./youtube-channel-scraper/) | YouTube Channel Scraper: Subscribers, Links, Videos $0.8/1K |
 | [facebook-pages-scraper](https://apify.com/transparent_meteorite/facebook-pages-scraper) | [facebook-pages-scraper/](./facebook-pages-scraper/) | Facebook Pages Scraper: Emails, Phones, Followers $3/1K |
+| [threads-profile-scraper](https://apify.com/transparent_meteorite/threads-profile-scraper) | [threads-profile-scraper/](./threads-profile-scraper/) | Threads Scraper: Profiles, Posts, Views, Likes, $1.50 per 1K |
