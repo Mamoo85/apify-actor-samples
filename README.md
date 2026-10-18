@@ -64,3 +64,4 @@ All maintained by me (same disclosure as above):
 | [tiktok-followers-scraper](https://apify.com/transparent_meteorite/tiktok-followers-scraper) | [tiktok-followers-scraper/](./tiktok-followers-scraper/) | TikTok followers scraper: follower and following lists with profile stats |
 | [tiktok-hashtag-search-scraper](https://apify.com/transparent_meteorite/tiktok-hashtag-search-scraper) | [tiktok-hashtag-search-scraper/](./tiktok-hashtag-search-scraper/) | TikTok hashtag scraper: videos by hashtag or search with engagement stats |
 | [youtube-transcript-extractor](https://apify.com/transparent_meteorite/youtube-transcript-extractor) | [youtube-transcript-extractor/](./youtube-transcript-extractor/) | YouTube transcript extractor: captions as text, segments, SRT or VTT |
+| [youtube-video-scraper](https://apify.com/transparent_meteorite/youtube-video-scraper) | [youtube-video-scraper/](./youtube-video-scraper/) | YouTube Scraper: Videos, Views, Likes, Tags, $2 per 1K |
