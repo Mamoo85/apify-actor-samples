@@ -71,3 +71,4 @@ All maintained by me (same disclosure as above):
 | [website-redesign-leads](https://apify.com/transparent_meteorite/website-redesign-leads) | [website-redesign-leads/](./website-redesign-leads/) | Businesses Without Websites Leads Finder - $4/1K |
 | [youtube-sponsorship-tracker](https://apify.com/transparent_meteorite/youtube-sponsorship-tracker) | [youtube-sponsorship-tracker/](./youtube-sponsorship-tracker/) | YouTube Sponsorship Tracker - Brand Deals $2/1K |
 | [instagram-posts-scraper](https://apify.com/transparent_meteorite/instagram-posts-scraper) | [instagram-posts-scraper/](./instagram-posts-scraper/) | Instagram Posts Scraper - No Login, Comments, $1.2/1K |
+| [instagram-reels-scraper](https://apify.com/transparent_meteorite/instagram-reels-scraper) | [instagram-reels-scraper/](./instagram-reels-scraper/) | Instagram Reels Scraper - Plays & Comments, $1.5/1K |
