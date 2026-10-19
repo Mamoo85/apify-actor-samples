@@ -70,3 +70,4 @@ All maintained by me (same disclosure as above):
 | [threads-profile-scraper](https://apify.com/transparent_meteorite/threads-profile-scraper) | [threads-profile-scraper/](./threads-profile-scraper/) | Threads Scraper: Profiles, Posts, Views, Likes, $1.50 per 1K |
 | [website-redesign-leads](https://apify.com/transparent_meteorite/website-redesign-leads) | [website-redesign-leads/](./website-redesign-leads/) | Businesses Without Websites Leads Finder - $4/1K |
 | [youtube-sponsorship-tracker](https://apify.com/transparent_meteorite/youtube-sponsorship-tracker) | [youtube-sponsorship-tracker/](./youtube-sponsorship-tracker/) | YouTube Sponsorship Tracker - Brand Deals $2/1K |
+| [instagram-posts-scraper](https://apify.com/transparent_meteorite/instagram-posts-scraper) | [instagram-posts-scraper/](./instagram-posts-scraper/) | Instagram Posts Scraper - No Login, Comments, $1.2/1K |
