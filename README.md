@@ -69,3 +69,4 @@ All maintained by me (same disclosure as above):
 | [facebook-pages-scraper](https://apify.com/transparent_meteorite/facebook-pages-scraper) | [facebook-pages-scraper/](./facebook-pages-scraper/) | Facebook Pages Scraper: Emails, Phones, Followers $3/1K |
 | [threads-profile-scraper](https://apify.com/transparent_meteorite/threads-profile-scraper) | [threads-profile-scraper/](./threads-profile-scraper/) | Threads Scraper: Profiles, Posts, Views, Likes, $1.50 per 1K |
 | [website-redesign-leads](https://apify.com/transparent_meteorite/website-redesign-leads) | [website-redesign-leads/](./website-redesign-leads/) | Businesses Without Websites Leads Finder - $4/1K |
+| [youtube-sponsorship-tracker](https://apify.com/transparent_meteorite/youtube-sponsorship-tracker) | [youtube-sponsorship-tracker/](./youtube-sponsorship-tracker/) | YouTube Sponsorship Tracker - Brand Deals $2/1K |
