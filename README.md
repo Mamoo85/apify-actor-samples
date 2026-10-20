@@ -75,3 +75,4 @@ All maintained by me (same disclosure as above):
 | [youtube-shorts-scraper](https://apify.com/transparent_meteorite/youtube-shorts-scraper) | [youtube-shorts-scraper/](./youtube-shorts-scraper/) | YouTube Shorts Scraper: Views, Likes, Dates, $2 per 1K |
 | [google-maps-new-business-radar](https://apify.com/transparent_meteorite/google-maps-new-business-radar) | [google-maps-new-business-radar/](./google-maps-new-business-radar/) | New Business Leads from Google Maps - $3/1K |
 | [hiring-velocity-signals](https://apify.com/transparent_meteorite/hiring-velocity-signals) | [hiring-velocity-signals/](./hiring-velocity-signals/) | Hiring Velocity Signals: Company Hiring Trends from Jobs |
+| [maps-listing-change-monitor](https://apify.com/transparent_meteorite/maps-listing-change-monitor) | [maps-listing-change-monitor/](./maps-listing-change-monitor/) | Google Maps Listing Monitor: Rating, Hours, Closure Alerts |
