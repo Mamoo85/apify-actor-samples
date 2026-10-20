@@ -74,3 +74,4 @@ All maintained by me (same disclosure as above):
 | [instagram-reels-scraper](https://apify.com/transparent_meteorite/instagram-reels-scraper) | [instagram-reels-scraper/](./instagram-reels-scraper/) | Instagram Reels Scraper - Plays & Comments, $1.5/1K |
 | [youtube-shorts-scraper](https://apify.com/transparent_meteorite/youtube-shorts-scraper) | [youtube-shorts-scraper/](./youtube-shorts-scraper/) | YouTube Shorts Scraper: Views, Likes, Dates, $2 per 1K |
 | [google-maps-new-business-radar](https://apify.com/transparent_meteorite/google-maps-new-business-radar) | [google-maps-new-business-radar/](./google-maps-new-business-radar/) | New Business Leads from Google Maps - $3/1K |
+| [hiring-velocity-signals](https://apify.com/transparent_meteorite/hiring-velocity-signals) | [hiring-velocity-signals/](./hiring-velocity-signals/) | Hiring Velocity Signals: Company Hiring Trends from Jobs |
