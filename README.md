@@ -72,3 +72,4 @@ All maintained by me (same disclosure as above):
 | [youtube-sponsorship-tracker](https://apify.com/transparent_meteorite/youtube-sponsorship-tracker) | [youtube-sponsorship-tracker/](./youtube-sponsorship-tracker/) | YouTube Sponsorship Tracker - Brand Deals $2/1K |
 | [instagram-posts-scraper](https://apify.com/transparent_meteorite/instagram-posts-scraper) | [instagram-posts-scraper/](./instagram-posts-scraper/) | Instagram Posts Scraper - No Login, Comments, $1.2/1K |
 | [instagram-reels-scraper](https://apify.com/transparent_meteorite/instagram-reels-scraper) | [instagram-reels-scraper/](./instagram-reels-scraper/) | Instagram Reels Scraper - Plays & Comments, $1.5/1K |
+| [youtube-shorts-scraper](https://apify.com/transparent_meteorite/youtube-shorts-scraper) | [youtube-shorts-scraper/](./youtube-shorts-scraper/) | YouTube Shorts Scraper: Views, Likes, Dates, $2 per 1K |
