@@ -1,4 +1,4 @@
-# YouTube Sponsorship Tracker - Brand Deals $2/1K
+# YouTube Sponsor Finder: Brand Deals & Influencer Ads
 
 Free sample output (10 rows, `sample.csv`) from the Apify actor **youtube-sponsorship-tracker**.
 
