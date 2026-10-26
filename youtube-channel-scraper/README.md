@@ -1,4 +1,4 @@
-# YouTube Channel Scraper: Subscribers, Links, Videos $0.8/1K
+# YouTube Channel Scraper: About Links, Country, Subscribers
 
 Free sample output (10 rows, `sample.csv`) from the Apify actor **youtube-channel-scraper**.
 
@@ -7,7 +7,7 @@ Actor page: https://apify.com/transparent_meteorite/youtube-channel-scraper
 **Disclosure: I maintain this actor.** This repo is a free sample of its real output so you can judge the columns before running it. Nothing here is a review or endorsement by a third party.
 
 ## What it does
-Scrape YouTube channels: subscribers, total views, video count, country, joined date, links, avatar and banner, plus newest, popular or oldest videos, Shorts and streams. Accepts @handles, channel or video URLs. No login, no API key. $0.80 per 1,000 rows.
+YouTube channel About data with every external link, country and joined date, plus subscribers, total views, video count, avatar and banner. Add newest, popular or oldest videos, Shorts and streams; monitor mode for new uploads. Accepts @handles, channel or video URLs. No login, no API key.
 
 ## Columns in sample.csv
 `type`, `channelId`, `channelName`, `channelHandle`, `channelUrl`, `channelCountry`, `channelJoinedDate`, `numberOfSubscribers`, `channelTotalViews`, `channelTotalVideos`, `channelVerified`, `title`, `url`, `fromInput`, `scrapedAt`
