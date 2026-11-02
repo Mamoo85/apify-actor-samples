@@ -7,7 +7,7 @@ Actor page: https://apify.com/transparent_meteorite/youtube-sponsorship-tracker
 **Disclosure: I maintain this actor.** This repo is a free sample of its real output so you can judge the columns before running it. Nothing here is a review or endorsement by a third party.
 
 ## What it does
-Find which YouTubers a brand sponsors, or every sponsor in a channel or niche. One row per video and sponsor: brand, domain, promo code, tracked link, ad timestamp, evidence and confidence. No login, no API key. $2 per 1,000 rows.
+From $2.00 per 1K sponsors found. Find which YouTubers a brand sponsors, or every sponsor in a channel or niche. One row per video and sponsor: brand, domain, promo code, tracked link, timestamp, evidence and confidence.
 
 ## Columns in sample.csv
 `videoId`, `url`, `title`, `channelName`, `channelSubscribers`, `views`, `likes`, `publishedAt`, `sponsorBrand`, `sponsorDomain`, `promoCode`, `sponsorTimestamp`, `isPaidPromotionFlag`, `hasAdDisclosure`, `confidence`
