@@ -1,6 +1,6 @@
 # Data dictionary: New US trucking carriers (FMCSA census)
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/fmcsa-new-carrier-leads/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/fmcsa-new-carrier-leads/latest.json) (60 rows, refreshed weekly, last pull 2026-10-13T22:32:28Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/fmcsa-new-carrier-leads/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/fmcsa-new-carrier-leads/latest.json) (60 rows, refreshed weekly, last pull 2026-11-10T11:40:16Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/fmcsa-new-carrier-leads
 Data origin: FMCSA Motor Carrier Census (U.S. DOT)
@@ -39,5 +39,8 @@ Contact details (emails, phones), street addresses and personal-name fields are 
 | `mcs150_mileage` | integer | Annual mileage on the MCS-150. |
 | `mcs150_mileage_year` | integer | Year the mileage refers to. |
 | `duns_number` | string | D-U-N-S number on the census record. |
+| `operation_type` | string | Value as published by the source. |
+| `age_in_days` | integer | Value as published by the source. |
+| `lead_score` | integer | Value as published by the source. |
 
 Disclosure: I maintain the actor above (paid, pay-per-event). This file is a free sample.

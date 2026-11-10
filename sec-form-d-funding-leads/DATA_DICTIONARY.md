@@ -1,6 +1,6 @@
 # Data dictionary: SEC Form D private placement filings
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/sec-form-d-funding-leads/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/sec-form-d-funding-leads/latest.json) (60 rows, refreshed weekly, last pull 2026-10-13T22:32:42Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/sec-form-d-funding-leads/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/sec-form-d-funding-leads/latest.json) (60 rows, refreshed weekly, last pull 2026-11-10T11:40:25Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/sec-form-d-funding-leads
 Data origin: SEC EDGAR Form D filings
@@ -34,6 +34,8 @@ Contact details (emails, phones), street addresses and personal-name fields are 
 | `numberOfInvestors` | integer | Investors who have invested. |
 | `salesCommissionsUsd` | integer | Sales commissions in USD. |
 | `findersFeesUsd` | integer | Finders fees in USD. |
+| `contactName` | string | Value as published by the source. |
+| `contactTitle` | string | Value as published by the source. |
 | `filingUrl` | url | Link to the filing index on sec.gov. |
 | `primaryDocUrl` | url | Link to the primary document on sec.gov. |
 | `scrapedAt` | datetime | UTC timestamp when the actor fetched the row. |

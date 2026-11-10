@@ -1,6 +1,6 @@
 # Data dictionary: Developer signals: Hacker News, npm and PyPI
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/developer-signals/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/developer-signals/latest.json) (49 rows, refreshed weekly, last pull 2026-10-13T22:32:35Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/developer-signals/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/developer-signals/latest.json) (55 rows, refreshed weekly, last pull 2026-11-10T11:40:30Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/developer-signals
 Data origin: Hacker News Algolia API, npm registry, PyPI JSON API
@@ -31,6 +31,7 @@ Contact details (emails, phones), street addresses and personal-name fields are 
 | `homepage` | url | Package homepage. |
 | `repositoryUrl` | url | Source repository URL. |
 | `keywords` | json-string | JSON list of package keywords. |
+| `commentCount` | integer | Value as published by the source. |
 | `requiresPython` | string | Python version constraint (PyPI). |
 | `latestReleaseAt` | datetime | Time of the latest release. |
 | `downloadsLastDay` | integer | Downloads in the last day. |

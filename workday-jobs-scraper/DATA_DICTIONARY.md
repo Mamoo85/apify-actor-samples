@@ -1,6 +1,6 @@
 # Data dictionary: Jobs from Workday career sites
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/workday-jobs-scraper/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/workday-jobs-scraper/latest.json) (60 rows, refreshed weekly, last pull 2026-10-13T22:32:48Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/workday-jobs-scraper/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/workday-jobs-scraper/latest.json) (60 rows, refreshed weekly, last pull 2026-11-10T11:40:51Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/workday-jobs-scraper
 Data origin: Public Workday career-site job feeds
@@ -29,6 +29,15 @@ Contact details (emails, phones), street addresses and personal-name fields are 
 | `salaryMax` | integer | Upper end of the posted salary range. Empty when not disclosed. |
 | `salaryCurrency` | string | ISO currency code of the salary range. |
 | `salaryPeriod` | string | Period the salary range covers (for example year or hour). |
+| `salaryAnnualMin` | integer | Value as published by the source. |
+| `salaryAnnualMax` | integer | Value as published by the source. |
+| `employmentType` | string | Value as published by the source. |
+| `experienceLevel` | string | Value as published by the source. |
+| `workArrangement` | string | Value as published by the source. |
+| `cities` | json-string | Value as published by the source. |
+| `regions` | json-string | Value as published by the source. |
+| `countries` | json-string | Value as published by the source. |
+| `organizationLogoUrl` | url | Value as published by the source. |
 | `hiringEntity` | string | Hiring legal entity. |
 | `careerSiteUrl` | url | Career site URL. |
 | `workdayTenant` | string | Workday tenant name. |

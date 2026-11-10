@@ -1,6 +1,6 @@
 # Data dictionary: WARN layoff notices (7 states)
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/warn-layoff-alerts/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/warn-layoff-alerts/latest.json) (60 rows, refreshed weekly, last pull 2026-10-13T22:32:22Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/warn-layoff-alerts/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/warn-layoff-alerts/latest.json) (60 rows, refreshed weekly, last pull 2026-11-10T11:40:09Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/warn-layoff-alerts
 Data origin: State WARN notice postings (TX, CA, WA, OR, MD, VA, NC workforce agencies)
@@ -18,10 +18,15 @@ Contact details (emails, phones), street addresses and personal-name fields are 
 | `notice_date` | date | Date on the notice (ISO date). |
 | `layoff_date` | date | First effective layoff or closure date (ISO date). |
 | `received_date` | date | Date the state agency received the notice. |
-| `wda` | string | Workforce Development Area, where the state reports it. |
-| `source_state` | string | State agency the notice came from. |
 | `layoff_type` | string | Closure, layoff, permanent or temporary, as labelled by the state. |
+| `source_state` | string | State agency the notice came from. |
 | `source_url` | url | State dataset or page the row came from. |
+| `is_closure` | boolean | Value as published by the source. |
+| `employer_clean` | string | Value as published by the source. |
+| `notice_to_layoff_days` | integer | Value as published by the source. |
+| `days_since_notice` | integer | Value as published by the source. |
+| `size_bucket` | string | Value as published by the source. |
+| `scraped_at` | datetime | Value as published by the source. |
 | `enriched` | boolean | True when the row was enriched with employer domain data. |
 
 Disclosure: I maintain the actor above (paid, pay-per-event). This file is a free sample.

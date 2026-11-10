@@ -1,6 +1,6 @@
 # Data dictionary: Federal grants and contract awards
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/federal-grants-contracts/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/federal-grants-contracts/latest.json) (60 rows, refreshed weekly, last pull 2026-10-13T22:32:47Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/federal-grants-contracts/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/federal-grants-contracts/latest.json) (60 rows, refreshed weekly, last pull 2026-11-10T11:40:29Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/federal-grants-contracts
 Data origin: Grants.gov and USAspending.gov (U.S. federal open data)
@@ -35,6 +35,12 @@ Contact details (emails, phones), street addresses and personal-name fields are 
 | `url` | url | Link to the record at the source. |
 | `apiReference` | url | API call that returns the full record. |
 | `matchedKeyword` | string | Search keyword that surfaced the row. |
+| `solicitationNumber` | string | Value as published by the source. |
+| `noticeType` | string | Value as published by the source. |
+| `responseDeadline` | date | Value as published by the source. |
+| `pointsOfContact` | json-string | Value as published by the source. |
+| `department` | string | Value as published by the source. |
+| `office` | string | Value as published by the source. |
 | `retrievedAt` | datetime | UTC timestamp when the actor fetched the row. |
 
 Disclosure: I maintain the actor above (paid, pay-per-event). This file is a free sample.
