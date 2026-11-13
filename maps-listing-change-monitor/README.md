@@ -7,7 +7,7 @@ Actor page: https://apify.com/transparent_meteorite/maps-listing-change-monitor
 **Disclosure: I maintain this actor.** This repo is a free sample of its real output so you can judge the columns before running it. Nothing here is a review or endorsement by a third party.
 
 ## What it does
-Track a fixed set of Google Maps listings (clients, competitors or a category search) and get one row per change: closed, reopened, rating drop, review spike or stall, hours, phone, website or category changed, listing gone. Run 1 records a health baseline. No login.
+Monitor a fixed set of Google Maps listings (clients, competitors or a category) and get one row per change: closed, reopened, rating drop, review spike, hours, phone, website or category changed.
 
 ## Columns in sample.csv
 `rowType`, `eventType`, `severity`, `summary`, `setName`, `title`, `categoryName`, `status`, `rating`, `reviewsCount`, `field`, `oldValue`, `newValue`, `ratingDelta`, `reviewsDelta`, `city`, `state`
