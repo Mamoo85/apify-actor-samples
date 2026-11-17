@@ -1,6 +1,6 @@
 # Data dictionary: City building permits (Chicago, Seattle, Austin)
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/building-permits-leads/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/building-permits-leads/latest.json) (60 rows, refreshed weekly, last pull 2026-11-10T11:40:18Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/building-permits-leads/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/building-permits-leads/latest.json) (60 rows, refreshed weekly, last pull 2026-11-17T11:40:35Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/building-permits-leads
 Data origin: City open-data portals (Chicago, Seattle, Austin)

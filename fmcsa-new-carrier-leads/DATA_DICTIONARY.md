@@ -1,6 +1,6 @@
 # Data dictionary: New US trucking carriers (FMCSA census)
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/fmcsa-new-carrier-leads/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/fmcsa-new-carrier-leads/latest.json) (60 rows, refreshed weekly, last pull 2026-11-10T11:40:16Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/fmcsa-new-carrier-leads/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/fmcsa-new-carrier-leads/latest.json) (19 rows, refreshed weekly, last pull 2026-11-17T11:40:09Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/fmcsa-new-carrier-leads
 Data origin: FMCSA Motor Carrier Census (U.S. DOT)
@@ -35,7 +35,6 @@ Contact details (emails, phones), street addresses and personal-name fields are 
 | `units_term_leased` | integer | Term-leased units. |
 | `interstate_drivers` | integer | Interstate drivers. |
 | `intrastate_drivers` | integer | Intrastate drivers. |
-| `mcs150_date` | date | Date of the latest MCS-150 update. |
 | `mcs150_mileage` | integer | Annual mileage on the MCS-150. |
 | `mcs150_mileage_year` | integer | Year the mileage refers to. |
 | `duns_number` | string | D-U-N-S number on the census record. |

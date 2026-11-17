@@ -1,6 +1,6 @@
 # Data dictionary: Open jobs from Greenhouse, Lever and Ashby boards
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/ats-open-roles/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/ats-open-roles/latest.json) (60 rows, refreshed weekly, last pull 2026-11-10T11:40:24Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/ats-open-roles/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/ats-open-roles/latest.json) (40 rows, refreshed weekly, last pull 2026-11-17T11:42:06Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/ats-open-roles
 Data origin: Public Greenhouse, Lever and Ashby job-board APIs
@@ -24,8 +24,8 @@ Contact details (emails, phones), street addresses and personal-name fields are 
 | `updatedAt` | datetime | Last update time (UTC). |
 | `applyUrl` | url | Application link. |
 | `jobUrl` | url | Public job page link. |
-| `salaryMin` | number | Lower end of the posted salary range (number, in salaryCurrency per salaryPeriod). Empty when not disclosed. |
-| `salaryMax` | number | Upper end of the posted salary range. Empty when not disclosed. |
+| `salaryMin` | integer | Lower end of the posted salary range (number, in salaryCurrency per salaryPeriod). Empty when not disclosed. |
+| `salaryMax` | integer | Upper end of the posted salary range. Empty when not disclosed. |
 | `salaryCurrency` | string | ISO currency code of the salary range. |
 | `salaryPeriod` | string | Period the salary range covers (for example year or hour). |
 | `descriptionText` | string | Start of the job description (truncated to 300 characters). |

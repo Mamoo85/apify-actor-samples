@@ -1,6 +1,6 @@
 # Data dictionary: WARN layoff notices (7 states)
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/warn-layoff-alerts/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/warn-layoff-alerts/latest.json) (60 rows, refreshed weekly, last pull 2026-11-10T11:40:09Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/warn-layoff-alerts/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/warn-layoff-alerts/latest.json) (60 rows, refreshed weekly, last pull 2026-11-17T11:40:16Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/warn-layoff-alerts
 Data origin: State WARN notice postings (TX, CA, WA, OR, MD, VA, NC workforce agencies)
