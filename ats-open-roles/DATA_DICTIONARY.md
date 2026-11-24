@@ -1,6 +1,6 @@
 # Data dictionary: Open jobs from Greenhouse, Lever and Ashby boards
 
-Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/ats-open-roles/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/ats-open-roles/latest.json) (40 rows, refreshed weekly, last pull 2026-11-17T11:42:06Z). The older [`sample.csv`](./sample.csv) is kept as it was.
+Files: [`latest.csv`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/ats-open-roles/latest.csv) and [`latest.json`](https://raw.githubusercontent.com/Mamoo85/apify-actor-samples/main/ats-open-roles/latest.json) (60 rows, refreshed weekly, last pull 2026-11-24T11:40:23Z). The older [`sample.csv`](./sample.csv) is kept as it was.
 
 Source actor (Apify Store): https://apify.com/transparent_meteorite/ats-open-roles
 Data origin: Public Greenhouse, Lever and Ashby job-board APIs
